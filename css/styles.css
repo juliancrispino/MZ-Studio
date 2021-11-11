@@ -1,0 +1,117 @@
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+body{
+    overflow-x: hidden;
+}
+.segmento{
+    max-width: 80%;
+    margin: 50px auto;
+}
+.segmento h2{
+    margin: 40px auto;
+}
+.contenedor {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h2{
+    font-weight: 700;
+    font
+}
+
+
+/*Nav*/
+.navbar{
+    background-color: rgb(196, 195, 195);
+}
+
+.navbar a img{
+    max-width: 30%;
+}
+.nav-item a{
+    color: #c7342c;
+}
+
+/* Hero */
+.hero{
+    height: 100vh;
+    background-image: url(../img/austin-neill-gmuAWJGNHcY-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero img{
+    max-height: 100vh;
+}
+.info-hero{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    text-shadow: 5px  #c7342c;
+}
+.info-hero h1{
+    margin-bottom: 30px;
+}
+.info-hero a{
+    text-decoration: none;
+    color: #fff;
+}
+.info-hero a:visited{
+    color: #fff;
+}
+
+
+/*Nosotros*/
+.parrafos-nosotros{
+    margin: 30px auto;
+}
+.fotos-perfil{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.nosotros img{
+    margin: 1rem auto;
+    border-radius: 50%;
+    max-width: 80%;
+}
+
+/*Carousel*/
+
+.carousel{
+    max-width: 100vh;
+}
+#carouselExampleCaptions{
+    margin: 1rem auto;
+}
+
+/*contacto*/
+.contacto{
+    max-width: 80%;
+    margin: 2rem auto;
+}
+.contacto h2{
+    margin-bottom: 2rem;
+}
+.form{
+    margin-bottom: 3rem;
+}
+
+/*Footer*/
+.footer{
+    background-color: rgb(196, 195, 195);
+    padding: .5rem 3rem;
+    align-items: center;
+}
+.text-footer p{
+    font-size: .8rem;
+    text-align: right;
+
+}
