@@ -114,3 +114,7 @@ h2{
     text-align: right;
 
 }
+.links-footer{
+    display: flex;
+    justify-content: right;
+}
