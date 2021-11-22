@@ -144,3 +144,30 @@ html,body{
     width: 3rem;
 }
 
+@media (max-width: 640px) {
+    .nosotros h2    {        
+        font-size: 2rem;
+    } 
+    .ubicacion h2    {        
+        font-size: 2rem;
+    } 
+    .proyectos h2    {        
+        font-size: 2rem;
+    } 
+    .contacto h2{        
+        font-size: 2rem;
+    }
+
+    .nosotros p    {        
+        font-size: 1rem;
+    } 
+    .ubicacion p    {        
+        font-size: 1rem;
+    } 
+    .proyectos p    {        
+        font-size: 1rem;
+    } 
+    .contacto p{        
+        font-size: 1rem;
+    }
+}
